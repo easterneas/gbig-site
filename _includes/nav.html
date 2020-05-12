@@ -1,0 +1,20 @@
+<div x-data="initNav()">
+    <nav class="w-screen h-16 fixed z-50 transition-colors duration-200"
+        @scroll.window="onTop = (window.pageYOffset > 50) ? false : true">
+
+        <!--========== NAVIGATION ==========-->
+        <div class="z-50 fixed w-screen h-32 bg-transparent overflow-hidden">
+            <div class="w-screen max-w-screen-xl mx-auto">
+                <div class="fixed left-0 top-0 w-screen z-10 pb-6 transition-colors duration-200"
+                    :class="{ 'bg-white shadow-md text-black' : !onTop, 'bg-transparent text-white' : onTop }">
+                    <!-- Desktop -->
+                    {% include nav.desktop.html %}
+                    <!-- Mobile -->
+                    {% include nav.mobile.html %}
+
+                </div>
+            </div>
+        </div>
+        <!-- End Navbar -->
+    </nav>
+</div>

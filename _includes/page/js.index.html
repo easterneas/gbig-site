@@ -1,0 +1,189 @@
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://unpkg.com/swiper/js/swiper.js"></script>
+
+<script type="text/javascript">
+
+function articles() {
+    data = {
+        articles: [
+        {% for post in site.posts | limit: 5 %}
+            {
+                category: "{{ post.category | replace: '-',' ' }}",
+                title: "{{ post.title }}",
+                description: "{{ post.description }}",
+                image: "{{ post.image }}",
+                url: "{{ post.url }}",
+            },
+        {% endfor %}
+        ],
+        articleIndex: 0
+    };
+
+    console.log(data.articles.length);
+
+    return data;
+}
+
+    $(document).ready(function () {
+        var headerSlide = '.fw--header-slide';
+        var headerCaption = '.fw--header-caption';
+        var testimonySlide = '.js__swiper-testimonials';
+
+        var headerSlideDuration = 1500;
+
+        function changeSlide(el, duration) {
+            $(el).addClass("wow fadeOut animated");
+            $(el).attr("style", "fadeOut");
+
+            setTimeout(function () {
+                $(el).removeClass('wow fadeOut animated').addClass('hidden');
+                $(el).attr("style", "");
+            }, duration);
+        }
+
+
+        /* One Item */
+        var headSwiper = new Swiper(headerSlide, {
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            parallax: false,
+            direction: 'horizontal',
+            speed: 1000,
+            passiveListeners: false,
+            autoplay: {
+                delay: 7000,
+            },
+            loop: true,
+
+            on: {
+                init: function () {
+                    $(headerCaption +
+                            ` .container[data-index=${this.realIndex}]>.fw-header-overlay>*`)
+                        .removeClass('hidden').addClass("wow fadeInUp animated");
+                    $(headerCaption +
+                        ` .container[data-index=${this.realIndex}]>.fw-header-overlay>*`).attr(
+                        "style", "animation-name: fadeInUp;");
+
+                    setTimeout(function () {
+                        $(headerCaption +
+                            ` .container[data-index=${this.realIndex}]>.fw-header-overlay>*`
+                            ).removeClass('wow fadeInUp animated');
+                        $(headerCaption +
+                            ` .container[data-index=${this.realIndex}]>.fw-header-overlay>*`
+                            ).attr("style", "");
+                    }, headerSlideDuration);
+                }
+            },
+        });
+
+        headSwiper.on('slidePrevTransitionStart', function () {
+            var indexVal = this.realIndex + 1;
+
+            if (this.isBeginning) indexVal = 0;
+
+            var curIndexTitle = $(headerCaption +
+                ` .container[data-index=${indexVal}]>.fw-header-overlay>*`);
+
+            changeSlide(curIndexTitle, headerSlideDuration);
+        });
+
+        headSwiper.on('slideNextTransitionStart', function () {
+            var indexVal = this.realIndex - 1;
+
+            if (this.isEnd)
+                indexVal = this.activeIndex - 2;
+
+            var curIndexTitle = $(headerCaption +
+                ` .container[data-index=${indexVal}]>.fw-header-overlay>*`);
+
+            changeSlide(curIndexTitle, headerSlideDuration);
+        });
+
+        headSwiper.on('slideChangeTransitionEnd', function () {
+            var curIndexTitle = $(headerCaption +
+                ` .container[data-index=${this.realIndex}]>.fw-header-overlay>*`);
+
+            $(curIndexTitle).removeClass('hidden').addClass("wow fadeInUp animated");
+            $(curIndexTitle).attr("style", "animation-name: fadeInUp;");
+
+            setTimeout(function () {
+                $(curIndexTitle).removeClass('wow fadeInUp animated');
+                $(curIndexTitle).attr("style", "");
+            }, headerSlideDuration);
+        });
+
+        /* Testimonials */
+        var swiper = new Swiper(testimonySlide, {
+            pagination: {
+                el: '.js__swiper-fraction',
+                type: 'fraction'
+            },
+            navigation: {
+                nextEl: '.js__swiper-btn--next',
+                prevEl: '.js__swiper-btn--prev',
+            },
+            slidesPerView: 1,
+            speed: 1000,
+            autoplay: {
+                delay: 7000
+            },
+            loop: true
+        });
+    });
+
+    setTimeout(() => {
+        var swiper = new Swiper('.js__swiper-news', {
+            pagination: '.js__swiper-pagination',
+            paginationClickable: true,
+            pagination: {
+                el: '.js__swiper-pagination',
+            },
+            spaceBetween: 30,
+            loop: true,
+            breakpoints: {
+                1024: {
+                    slidesPerView: 2,
+                    spaceBetween: 20
+                },
+                992: {
+                    slidesPerView: 2,
+                    spaceBetween: 30
+                },
+                768: {
+                    slidesPerView: 2,
+                    spaceBetween: 30
+                },
+                600: {
+                    slidesPerView: 2,
+                    spaceBetween: 30
+                },
+                480: {
+                    slidesPerView: 1,
+                    spaceBetween: 0
+                }
+            }
+        });
+
+        var weeklyEvents = new Swiper('.js__weekly-events', {
+            pagination: '.js__weekly-events--pagination',
+            paginationClickable: true,
+            pagination: {
+                el: '.js__weekly-events--pagination',
+            },
+            spaceBetween: 30,
+            loop: true,
+            breakpoints: {
+                480: {
+                    slidesPerView: 2,
+                    spaceBetween: 20
+                },
+                320: {
+                    slidesPerView: 1,
+                    spaceBetween: 0
+                }
+            }
+        });
+}, 1500);
+</script>

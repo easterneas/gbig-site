@@ -1,0 +1,8 @@
+- name: Utama
+  link: /
+- name: Tentang
+  link: /about
+- name: Blog
+  link: /blog
+# - name: Kontak
+#   link: /contact-us

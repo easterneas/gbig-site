@@ -1,0 +1,134 @@
+<!--========== NAVIGATION ==========-->
+<!-- Navbar -->
+<nav class="fixed w-screen h-16 grid grid-cols-2 md:grid-cols-5 xl:grid-cols-8 gap-4 bg-white">
+    <!-- Logo -->
+    <a class="col-span-1" href="/">
+        <!-- <img class="fw--main-header__logo-img fw--main-header__logo-img--default" width="300"
+            src="/assets/img/logo-white.svg" alt="Logo"> -->
+        <img class="h-16 mx-auto py-2" src="/assets/img/logo.svg" alt="Logo">
+    </a>
+    <!-- End Logo -->
+
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <button type="button" class="block text-right md:hidden">
+        <span class="fw--main-header__toggle-icon-bar">Menu</span>
+    </button>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="col-span-4 self-center">
+        <ul class="grid grid-cols-1 fixed md:relative md:grid-cols-5 gap-2">
+            <li class="text-left md:text-center">
+                <a href="/" class="fw--main-header__nav-link ">Utama</a>
+            </li>
+
+            <li class="text-left md:text-center">
+                <a href="/" class="fw--main-header__nav-link ">Tentang Kami</a>
+            </li>
+
+            <!-- CHURCH SERVICES -->
+            <li class="text-left md:text-center">
+                <a href="javascript:void(0);" class="dropdown-toggle fw--main-header__nav-link" data-toggle="dropdown"
+                    role="button" aria-haspopup="true" aria-expanded="false">Pelayanan <span
+                        class="g-font-size-10--xs g-margin-l-5--xs ti-angle-down"></span></a>
+                <ul class="dropdown-menu fw--main-header__dropdown-menu">
+                    <li><a href="/" class="fw--main-header__dropdown-menu-link">{{ $page->title }}</a></li>
+                </ul>
+            </li>
+
+            <!-- EVENTS -->
+            <li class="text-left md:text-center">
+                <a href="/" class="fw--main-header__nav-link fw--main-header__nav-link--dark ">Acara
+                    Utama</a>
+            </li>
+
+            <li class="text-left md:text-center">
+                <a href="/" class="fw--main-header__nav-link fw--main-header__nav-link--dark ">Kontak
+                    Kami</a>
+            </li>
+        </ul>
+    </div>
+    <!-- End Nav Menu -->
+</nav>
+
+<div x-data="{ open: false }" class="fixed w-screen h-screen bg-transparent overflow-hidden">
+    <div class="max-w-screen-xl mx-auto">
+        <div class="relative z-10 pb-8 bg-white sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
+            <div class="pt-6 px-4 sm:px-6 lg:px-8">
+                <nav class="relative flex items-center justify-between sm:h-10 lg:justify-start">
+                    <div class="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0">
+                        <div class="flex items-center justify-between w-full md:w-auto">
+                            <a href="#">
+                                <img class="h-8 w-auto sm:h-10" src="/img/logos/workflow-mark-on-white.svg" alt="" />
+                            </a>
+                            <div class="-mr-2 flex items-center md:hidden">
+                                <button @click="open = true" type="button"
+                                    class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out">
+                                    <svg class="h-6 w-6" stroke="currentColor" fill="none" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M4 6h16M4 12h16M4 18h16" />
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hidden md:block md:ml-10 md:pr-4">
+                        <a href="#"
+                            class="font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:text-gray-900 transition duration-150 ease-in-out">Product</a>
+                        <a href="#"
+                            class="ml-8 font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:text-gray-900 transition duration-150 ease-in-out">Features</a>
+                        <a href="#"
+                            class="ml-8 font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:text-gray-900 transition duration-150 ease-in-out">Marketplace</a>
+                        <a href="#"
+                            class="ml-8 font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:text-gray-900 transition duration-150 ease-in-out">Company</a>
+                        <a href="#"
+                            class="ml-8 font-medium text-indigo-600 hover:text-indigo-900 focus:outline-none focus:text-indigo-700 transition duration-150 ease-in-out">Log
+                            in</a>
+                    </div>
+                </nav>
+            </div>
+
+            <div x-show="open" x-transition:enter="duration-150 ease-out" x-transition:enter-start="opacity-0 scale-95"
+                x-transition:enter-end="opacity-100 scale-100" x-transition:leave="duration-100 ease-in"
+                x-transition:leave-start="opacity-100 scale-100" x-transition:leave-end="opacity-0 scale-95"
+                class="absolute top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden">
+                <div class="rounded-lg shadow-md">
+                    <div class="rounded-lg bg-white shadow-xs overflow-hidden">
+                        <div class="px-5 pt-4 flex items-center justify-between">
+                            <div>
+                                <img class="h-8 w-auto" src="/img/logos/workflow-mark-on-white.svg" alt="" />
+                            </div>
+                            <div class="-mr-2">
+                                <button @click="open = false" type="button"
+                                    class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out">
+                                    <svg class="h-6 w-6" stroke="currentColor" fill="none" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M6 18L18 6M6 6l12 12" />
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="px-2 pt-2 pb-3">
+                            
+                            <a href="#"
+                                class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out">Product</a>
+                            <a href="#"
+                                class="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out">Features</a>
+                            <a href="#"
+                                class="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out">Marketplace</a>
+                            <a href="#"
+                                class="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out">Company</a>
+                        </div>
+                        <div>
+                            <a href="#"
+                                class="block w-full px-5 py-3 text-center font-medium text-indigo-600 bg-gray-50 hover:bg-gray-100 hover:text-indigo-700 focus:outline-none focus:bg-gray-100 focus:text-indigo-700 transition duration-150 ease-in-out">
+                                Log in
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+            <!-- End Navbar -->
+            <!--========== END NAVIGATION ==========-->

@@ -1,0 +1,31 @@
+  description: "GBI Grogol, merupakan bagian dari Gereja Bethel Indonesia cabang Gatot Subroto Rayon 1B,<br>
+                yang berada di bawah penggembalaan Ps. Dr. Ir. Niko Njotorahardjo.<br><br>
+                Dibentuk pada 14 November 1993, dengan (alm.) Pdt. Arianto Susetio ditunjuk<br>
+                gembala cabang, dengan tongkat estafet diserahkan kepada Pdt. Simeon Santoso pada tahun 2004."
+  vision: Menjadi gereja pemulihan yang berkarakter Kristus, dan berdampak bagi lingkungan, kota, dan bangsa.
+  missions:
+  - data: Membangun Komunitas yang memiliki nilai-nilai yang saling menjaga, menasihati, dan menguatkan
+  - data: Menuntun Jemaat untuk memiliki Kasih dan Kuasa melalui keintiman dengan Tuhan
+  - data: Mengajarkan kebenaran Firman Tuhan yang aplikatif agar menjawab kebutuhan
+  - data: Melatih dan mengutus Jemaat untuk menjadi Saksi Kristus
+  - data: Mengembangkan Kerajaan Allah melalui pelayanan sosial, kesehatan, dan pendidikan
+  cultures:
+  - icon: heart
+    name: Kasih
+  - icon: handshake
+    name: Komitmen
+  - icon: link
+    name: Integritas
+  - icon: users
+    name: Kekeluargaan
+  - icon: lightbulb
+    name: Kreativitas
+  leader:
+    main:
+      name: Pdt. Simeon Santoso
+      photo: /assets/img/hero/leader/leader1.jpg
+      quote:
+    vice:
+      name: Pdm. Billy Hartono
+      photo: /assets/img/hero/leader/leader2.jpg
+      quote:

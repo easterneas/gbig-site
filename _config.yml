@@ -1,0 +1,36 @@
+title: GBI Grogol
+slogan: Berkarakter Kristus dan berdampak bagi bangsa.
+description: Merupakan bagian dari Gereja Bethel Indonesia cabang Gatot Subroto Rayon 1B, yang berada di bawah penggembalaan Ps. Dr. Ir. Niko Njotorahardjo.
+google_analytics: UA-162450405-1
+
+url: "https://gbigrogol.com"
+highlighter: rouge
+markdown: kramdown
+
+# Org. basic info
+founded: 1993
+phone: 021-5604323
+fax: 021-5604324
+email: info@gbigrogol.com
+address:
+  building: Gedung CIMB Niaga, lantai 5
+  street: Jl. Daan Mogot no. 95C
+  subdistrict: Duri Kepa
+  district: Kebon Jeruk
+  city: Jakarta Barat
+  postal_code: 11460
+  province: DKI Jakarta
+
+defaults:
+  # - scope:
+  #     path: ""
+  #   values: ""
+
+include:
+  - assets
+
+exclude:
+  - "*.config.js"
+  - "package*.json"
+  - "node_modules"
+  - "vendor"

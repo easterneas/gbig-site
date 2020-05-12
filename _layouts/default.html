@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<!-- Begin Head -->
+<head>
+    {% include partials/head.js.html %}
+    {% include partials/head.meta.html %}
+    
+    <title>
+        {% if page.title %}
+            {{ page.title }} | {{ site.title }}
+        {% else %}
+            {{ site.title }}
+        {% endif %}
+    </title>
+    
+    {% include partials/head.link.html %}
+    {% include partials/head.style.html %}
+    {% if page.css %}
+        {% include {{ page.css | prepend: 'page/' }} %}
+    {% endif %}
+</head>
+<!-- End Head -->
+
+<!-- Body -->
+<body>
+    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
+
+    {%- include body.fb-chat.html -%}
+    {%- include nav.html -%}
+    
+    <div id="app" class="w-screen">
+        {{ content }}
+    </div>
+    
+    {%- include footer.html -%}
+
+    {% include js.html %}
+
+    {% if page.js %}
+        {% include {{ page.js | prepend: 'page/' }} %}
+    {% endif %}
+</body>
+<!-- End Body -->
+
+</html>
