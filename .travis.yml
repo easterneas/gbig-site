@@ -1,6 +1,7 @@
 language: ruby
-cache: bundler
-sudo: false
+
+os: linux
+dist: bionic
 
 script: bundle exec jekyll build
 
