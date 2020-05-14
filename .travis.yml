@@ -4,10 +4,10 @@ os: linux
 dist: bionic
 
 deploy:
+  edge: true # dpl v2
   fqdn: gbigrogol.com
   provider: pages
-  skip_cleanup: true
-  github_token: $GITHUB_TOKEN
+  cleanup: false
   keep_history: true
   on:
     branch: master
