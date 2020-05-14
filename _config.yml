@@ -7,6 +7,12 @@ url: "https://gbigrogol.com"
 highlighter: rouge
 markdown: kramdown
 
+plugins:
+  - jekyll-paginate
+
+whitelist:
+  - jekyll-paginate
+
 # Org. basic info
 founded: 1993
 phone: 021-5604323
