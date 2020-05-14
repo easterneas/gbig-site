@@ -5,6 +5,12 @@ dist: bionic
 
 deploy:
   fqdn: gbigrogol.com
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN
+  keep_history: true
+  on:
+    branch: master
 
 script: bundle exec jekyll build
 
