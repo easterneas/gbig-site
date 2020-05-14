@@ -1,7 +1,7 @@
 ---
 # Post Information
 title: Menjadi Orang Benar
-description: Kita harus Mengenal Yang Benar dan berada di dalam Yang Benar, untuk menjadi orang benar.
+description: "Hidup yang anda keluhkan (terkadang) adalah hidup yang orang lain inginkan, jadi bersyukurlah." &mdash; IHT
 image: /assets/img/defaults/post/sr.jpg
 date: 2020-5-10
 category: santapan-rohani
@@ -20,31 +20,28 @@ share-to:
   facebook: Salah satu hal yang harus kita sadari dalam perjuangan kita menjadi orang benar-Nya Tuhan adalah semakin kita ingin menjadi orang benar-Nya Tuhan, kita harus semakin siap dan kuat menghadapi berbagai tekanan, tantangan, halangan dan panah-panah api si jahat. | Santapan Rohani GBI Grogol, 10 Mei 2020
 ---
 
-> "Sebab tujuh kali orang benar jatuh, namun ia bangun kembali, tetapi orang fasik akan roboh dalam bencana."
->
-> -- Amsal 24:16
+Hidup yang anda keluhkan (terkadang) adalah hidup yang orang lain inginkan, jadi bersyukurlah. »IHT«
 
-Salah satu hal yang harus kita sadari dalam perjuangan kita menjadi orang benar-Nya Tuhan adalah semakin kita ingin menjadi orang benar-Nya Tuhan, kita harus semakin siap dan kuat menghadapi berbagai tekanan, tantangan, halangan dan panah-panah api si jahat.
+Yudas 1 : 16 berkata : “ Mereka itu orang-orang yang menggerutu dan mengeluh tentang nasibnya , hidup menuruti hawa nafsunya , tetapi mulut mereka mengeluarkan perkataan-perkataan yang bukan-bukan dan mereka menjilat orang untuk mendapat keuntungan .”
 
-Sebab itu, Yohanes mengatakan, "Kita tahu, bahwa kita berasal dari Allah dan seluruh dunia berada di bawah kuasa si jahat. Akan tetapi kita tahu, bahwa Anak Allah telah datang dan telah mengaruniakan pengertian kepada kita, supaya kita mengenal Yang Benar; dan kita ada di dalam Yang Benar, di dalam Anak-Nya Yesus Kristus. Dia adalah Allah yang benar dan hidup yang kekal." ([1 Yoh 5:19-20](https://alkitab.sabda.org/passage.php?passage=1%20yoh%205:19-20))
+Kadang-kadang keluhan datangnya bukan karena kesusahan dan kesulitan , tapi kita mengeluh karena merasa hidup kita tidak sebaik tetangga , atau orang lain , selalu merasa kurang , dilain pihak juga ada pihak lain yang menginginkan kehidupan seperti kita .
 
-Ya, kita harus Mengenal Yang Benar dan berada di dalam Yang Benar. Mengapa demikian?
+Bilangan 11 : 5 berkata : “ Kita teringat kepada ikan yang kita makan di Mesir dengan tidak bayar apa-apa , kepada mentimun dan semangka , bawang prei , bawang merah dan bawang putih .”
 
-## Menentukan perkenanan hidup kita dihadapan Tuhan.
+Jadi intip-mengintip , menginginkan kehidupan orang lain adalah perilaku kehidupan yang keliru , sebab akan memancing iri hati dan sungut-sungut , selalu melihat masa lalu .
 
-## Menentukan sikap hati, kualitas hubungan kita dengan Tuhan, karakter dan perilaku hidup kita sehari-hari di hadapan Tuhan, kualitas ibadah kita yang sejati, dan kualitas kehidupan doa dan penyembahan kita di hadapan Tuhan setiap hari.
+Bilangan 11 : 6 berkata : “  Tetapi sekarang kita kurus kering , tidak ada sesuatu apa pun , kecuali manna ini saja yang kita lihat ." 
 
-## Kita harus mengenal Kristus dan tinggal di dalam Kristus
+Selalu merasa kurang dan merasa tidak puas dengan apa yang ada pada kita , tersesat oleh opini yang kita ciptakan sendiri , yang menyesatkan asumsi pola pikir yang keliru yang sangat menyesatkan jalan hidup kita .
 
-> "Sebab Kristus adalah "ya" bagi semua janji Allah. Itulah sebabnya oleh Dia kita mengatakan "Amin" untuk memuliakan Allah. Sebab Dia yang telah meneguhkan kami bersama-sama dengan kamu di dalam Kristus, adalah Allah yang telah mengurapi, memeteraikan tanda milik-Nya atas kita dan yang memberikan Roh Kudus di dalam hati kita sebagai jaminan dari semua yang telah disediakan untuk kita."
->
-> -- 2 Korintus 1:20-22
+Mazmur 32 : 3 berkata : “  Selama aku berdiam diri , tulang-tulangku menjadi lesu karena aku mengeluh sepanjang hari .”
 
-Kalau kita tidak tinggal di dalam Kristus, maka kita bukan hanya tidak bisa bertumbuh dan berbuah, tetapi kita juga tidak bisa berbuat apa-apa dan kita bukan siapa-siapa. Kalau kita berada di dalam Kristus, kita melekat bahkan menjadi satu dengan Kristus dan firman-Nya tinggal di dalam kita.
+Keluhan merusak seluruh sendi-sendi kehidupan , kita kehilangan gairah hidup , tubuh dan jiwa kita menjadi sakit .
 
-> "Jikalau kamu tinggal di dalam Aku dan firman-Ku tinggal di dalam kamu, mintalah apa saja yang kamu kehendaki, dan kamu akan menerimanya."
-> -- Yohanes 15:7
+Mazmur 32 : 11 berkata : “  Bersukacitalah dalam TUHAN dan bersorak-soraklah , hai orang-orang benar ; bersorak-sorailah , hai orang-orang jujur ! .”
 
-## Menentukan kualitas hubungan kita sebagai anak-anak Allah
+Padahal hidup yang terindah bukan karena banyaknya harta , bukan karena tingginya kedudukan dan status sosial , melainkan kita isi dengan ucapan syukur tanpa rasa iri , cemburu terhadap kelebihan orang lain , sebab kelebihan mereka belum tentu mengalahkan kelebihan yang kita miliki .
 
-Kalau kita bisa Mengenal Yang Benar dan Berada Di Dalam Yang Benar sesungguhnya itu merupakan kasih karunia Tuhan, dan sangat menentukan kualitas fondasi kerohanian kita, kualitas hubungan kita sebagai anak-anak Allah dengan Bapa kita di Sorga, juga menentukan kualitas pertumbuhan rohani kita dan kesiapan kita menjadi mempelai kudus-Nya Kristus yang cemerlang dan sempurna.
+Jadi bersyukur dan bersuka-citalah atas hal apapun yang ada , sebab inilah yang terbaik yang sudah Tuhan berikan bagi kita .           
+                              AMIN . 
+

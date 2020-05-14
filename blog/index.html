@@ -34,7 +34,6 @@ css:
 
         <!-- Pagination links -->
         {% if paginator.total_pages > 1 %}
-        {{ paginator.page }}
         <div class="pagination">
           {% if paginator.previous_page %}
             <a href="{{ paginator.previous_page_path | relative_url }}">&laquo; Prev</a>
