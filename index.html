@@ -36,13 +36,13 @@ css: css.index.html
             <!-- Swiper Wrapper -->
             <div class="z-0 swiper-wrapper w-1/2 lg:h-screen">
                 <div class="lg:h-screen bg-contain lg:bg-left lg:bg-cover swiper-slide"
-                    style="background: url('/assets/img/defaults/sliders/slider1.jpg');">
+                    style="background: url('/assets/img/defaults/sliders/slider1.jpg') no-repeat cover;">
                 </div>
                 <div class="lg:h-screen bg-contain lg:bg-left lg:bg-cover swiper-slide"
-                    style="background: url('/assets/img/defaults/sliders/slider2.jpg');">
+                    style="background: url('/assets/img/defaults/sliders/slider2.jpg') no-repeat cover;">
                 </div>
                 <div class="lg:h-screen bg-contain lg:bg-left lg:bg-cover swiper-slide"
-                    style="background: url('/assets/img/defaults/sliders/slider3.jpg');">
+                    style="background: url('/assets/img/defaults/sliders/slider3.jpg') no-repeat cover;">
                 </div>
             </div>
             <!-- End Swiper Wrapper -->
@@ -166,9 +166,9 @@ css: css.index.html
                     <template x-for="(post, index) in articles" :key="index">
                         <button
                             class="flex-1 w-4 h-2 mt-4 mx-2 mb-0 rounded-full overflow-hidden transition-colors duration-200 ease-out hover:bg-red-600 hover:shadow-lg ease-in-out"
-                            :class="{ 
+                            :class="{
                         'bg-red-900': articleIndex === index,
-                        'bg-red-300': articleIndex !== index 
+                        'bg-red-300': articleIndex !== index
                     }" x-on:click="articleIndex = index"></button>
                     </template>
                 </div>
